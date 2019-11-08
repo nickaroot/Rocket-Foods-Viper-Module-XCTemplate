@@ -5,7 +5,7 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>com.nickaroot.rfmodule</string>
+	<string>com.nickaroot.RFViperModule</string>
 	<key>Ancestors</key>
 	<array>
 		<string>com.apple.dt.unit.frameworkBase</string>
@@ -15,7 +15,7 @@
 	<key>Concrete</key>
 	<true/>
 	<key>Description</key>
-	<string>This template creates a Rocket Foods Module</string>
+	<string>This template creates a Rocket Foods VIPER Module</string>
 	<key>SortOrder</key>
 	<integer>1</integer>
 	<key>AssociatedTargetSpecification</key>
