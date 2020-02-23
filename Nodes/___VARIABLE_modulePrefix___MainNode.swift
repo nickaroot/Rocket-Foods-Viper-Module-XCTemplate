@@ -8,9 +8,5 @@ public class ___VARIABLE_modulePrefix___MainNode: RFMainNode {
 
     required init() {
         super.init()
-
-        automaticallyManagesSubnodes = true
-
-        backgroundColor = .white
     }
 }
