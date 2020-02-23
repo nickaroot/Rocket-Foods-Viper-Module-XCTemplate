@@ -8,7 +8,17 @@ public class ___VARIABLE_modulePrefix___View: ASViewController<___VARIABLE_modul
 
     var presenter: ___VARIABLE_modulePrefix___ViewOutput!
 
-    let modules: Container
+    public let modules: Container
+    
+    public var statusBarStyle: UIStatusBarStyle = .default {
+        didSet {
+            setNeedsStatusBarAppearanceUpdate()
+        }
+    }
+    
+    public override var preferredStatusBarStyle: UIStatusBarStyle {
+        return statusBarStyle
+    }
 
     public init(modules: Container) {
         self.modules = modules
