@@ -8,5 +8,7 @@ public class ___VARIABLE_modulePrefix___MainNode: RFMainNode {
 
     required init() {
         super.init()
+
+        backgroundColor = Constants.backgroundColor
     }
 }
