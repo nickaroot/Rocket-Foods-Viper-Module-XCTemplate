@@ -1,9 +1,10 @@
 // ___FILEHEADER___
 
-import AsyncDisplayKit
 import Swinject
+import AsyncDisplayKit
+import RFUI
 
-public class ___VARIABLE_modulePrefix___View: ASViewController<___VARIABLE_modulePrefix___MainNode> {
+public class ___VARIABLE_modulePrefix___View: ASViewController<___VARIABLE_modulePrefix___MainNode>, RFViewProtocol {
     typealias Constants = ___VARIABLE_modulePrefix___Constants
 
     var presenter: ___VARIABLE_modulePrefix___ViewOutput!
