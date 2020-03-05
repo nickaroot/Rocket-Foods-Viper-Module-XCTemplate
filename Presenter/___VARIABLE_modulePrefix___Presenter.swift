@@ -21,7 +21,5 @@ class ___VARIABLE_modulePrefix___Presenter: ___VARIABLE_modulePrefix___Presenter
         view.navigationBackButton = Constants.navbarBackButton
     }
 
-    func hideView() {
-        view.title = " "
-    }
+    func hideView() { }
 }
