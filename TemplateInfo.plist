@@ -132,8 +132,12 @@
 				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
 				<string>$(inherited) $(PROJECT_DIR)/Carthage/Build/iOS</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.3</string>
+				<string>11.0</string>
+				<key>SUPPORTS_MACCATALYST</key>
+				<string>NO</string>
 			</dict>
 		</dict>
 	</array>
