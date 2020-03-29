@@ -14,6 +14,7 @@ class ___VARIABLE_modulePrefix___Presenter: ___VARIABLE_modulePrefix___Presenter
 
     func showView() {
         router.navigationController = view.navigationController
+        router.tabBarController = view.tabBarController
 
         view.title = Constants.title
         view.statusBarStyle = Constants.statusBarStyle
