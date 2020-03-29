@@ -2,7 +2,7 @@
 
 import AsyncDisplayKit
 
-protocol ___VARIABLE_modulePrefix___ViewInput: AnyObject {
+protocol ___VARIABLE_modulePrefix___ViewInput: RFViewInputProtocol {
     var presenter: ___VARIABLE_modulePrefix___ViewOutput! { get set }
 
     var navigationController: UINavigationController? { get }

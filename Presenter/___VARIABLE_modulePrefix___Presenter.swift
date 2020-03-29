@@ -3,7 +3,7 @@
 import AsyncDisplayKit
 import RFUI
 
-class ___VARIABLE_modulePrefix___Presenter: ___VARIABLE_modulePrefix___PresenterInput {
+class ___VARIABLE_modulePrefix___Presenter: ___VARIABLE_modulePrefix___PresenterInput, RFPresenterProtocol {
     typealias Constants = ___VARIABLE_modulePrefix___Constants
 
     weak var view: ___VARIABLE_modulePrefix___ViewInput!

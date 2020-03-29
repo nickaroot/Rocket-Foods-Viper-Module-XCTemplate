@@ -1,6 +1,6 @@
 // ___FILEHEADER___
 
-protocol ___VARIABLE_modulePrefix___ViewOutput: AnyObject {
+protocol ___VARIABLE_modulePrefix___ViewOutput: RFViewOutputProtocol {
     func didLoad()
 
     func willAppear(_ animated: Bool)

@@ -1,5 +1,7 @@
 // ___FILEHEADER___
 
-protocol ___VARIABLE_modulePrefix___InteractorInput: AnyObject { }
+import RFUI
+
+protocol ___VARIABLE_modulePrefix___InteractorInput: RFInteractorInputProtocol { }
 
 extension ___VARIABLE_modulePrefix___Interactor: ___VARIABLE_modulePrefix___InteractorInput { }
