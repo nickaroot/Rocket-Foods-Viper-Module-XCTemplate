@@ -1,6 +1,7 @@
 // ___FILEHEADER___
 
 import AsyncDisplayKit
+import RFUI
 
 protocol ___VARIABLE_modulePrefix___ViewInput: RFViewInputProtocol {
     var presenter: ___VARIABLE_modulePrefix___ViewOutput! { get set }

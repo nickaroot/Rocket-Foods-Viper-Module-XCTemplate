@@ -1,5 +1,7 @@
 // ___FILEHEADER___
 
+import RFUI
+
 protocol ___VARIABLE_modulePrefix___ViewOutput: RFViewOutputProtocol {
     func didLoad()
 
