@@ -24,7 +24,7 @@ public class ___VARIABLE_modulePrefix___View: ASViewController<___VARIABLE_modul
     public init(modules: Container) {
         self.modules = modules
 
-        modules.register(___VARIABLE_modulePrefix___Presenter.self) { _ in ___VARIABLE_modulePrefix___Presenter() }
+        modules.register(___VARIABLE_modulePrefix___Presenter<___VARIABLE_modulePrefix___View>.self) { _ in ___VARIABLE_modulePrefix___Presenter() }
         modules.register(___VARIABLE_modulePrefix___Interactor.self) { _ in ___VARIABLE_modulePrefix___Interactor() }
         modules.register(___VARIABLE_modulePrefix___Router.self) { _ in ___VARIABLE_modulePrefix___Router() }
 
