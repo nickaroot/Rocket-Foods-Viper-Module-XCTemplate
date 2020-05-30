@@ -3,10 +3,10 @@
 import AsyncDisplayKit
 import RFUI
 
-class ___VARIABLE_modulePrefix___Presenter: ___VARIABLE_modulePrefix___PresenterInput, RFPresenterProtocol {
+class ___VARIABLE_modulePrefix___Presenter<ViewInput: ___VARIABLE_modulePrefix___ViewInput>: ___VARIABLE_modulePrefix___PresenterInput, RFPresenterProtocol {
     typealias Constants = ___VARIABLE_modulePrefix___Constants
 
-    weak var view: ___VARIABLE_modulePrefix___ViewInput!
+    weak var view: ViewInput!
     var router: ___VARIABLE_modulePrefix___RouterInput!
     var interactor: ___VARIABLE_modulePrefix___InteractorInput!
 

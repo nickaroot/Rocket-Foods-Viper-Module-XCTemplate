@@ -11,8 +11,7 @@ class ___VARIABLE_modulePrefix___Configurator: ___VARIABLE_modulePrefix___Config
     static func configure(with view: ___VARIABLE_modulePrefix___View, modules: Container) {
         guard let presenter = modules.resolve(___VARIABLE_modulePrefix___Presenter.self),
             let interactor = modules.resolve(___VARIABLE_modulePrefix___Interactor.self),
-            let router = modules.resolve(___VARIABLE_modulePrefix___Router.self),
-            let signOutDelegate = view.tabBarController as? SignOutDelegate else { return }
+            let router = modules.resolve(___VARIABLE_modulePrefix___Router.self) else { return }
 
         view.presenter = presenter
 
@@ -21,6 +20,5 @@ class ___VARIABLE_modulePrefix___Configurator: ___VARIABLE_modulePrefix___Config
         presenter.router = router
 
         interactor.presenter = presenter
-        interactor.signOutDelegate = signOutDelegate
     }
 }
