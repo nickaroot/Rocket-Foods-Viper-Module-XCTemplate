@@ -65,6 +65,8 @@
 						<string>Presenter/___VARIABLE_modulePrefix___PresenterInput.swift</string>
 						<string>Presenter/___VARIABLE_modulePrefix___Presenter+___VARIABLE_modulePrefix___InteractorOutput.swift</string>
 						<string>Presenter/___VARIABLE_modulePrefix___Presenter+___VARIABLE_modulePrefix___ViewOutput.swift</string>
+						<string>Presenter/___VARIABLE_modulePrefix___Presenter+Delegates.swift</string>
+						<string>Presenter/___VARIABLE_modulePrefix___Presenter+Actions.swift</string>
 						<string>Router/___VARIABLE_modulePrefix___Router.swift</string>
 						<string>View/___VARIABLE_modulePrefix___View.swift</string>
 						<string>View/___VARIABLE_modulePrefix___ViewInput.swift</string>
@@ -85,7 +87,7 @@
 			<key>Required</key>
 			<true/>
 			<key>NotPersisted</key>
-			<false/>
+			<true/>
 			<key>SortOrder</key>
 			<integer>100</integer>
 			<key>Default</key>
@@ -248,6 +250,24 @@
 		<dict>
 			<key>Path</key>
 			<string>Presenter/___VARIABLE_modulePrefix___Presenter+___VARIABLE_modulePrefix___ViewOutput.swift</string>
+			<key>Group</key>
+			<array>
+				<string>Presenter</string>
+			</array>
+		</dict>
+		<key>Presenter/___VARIABLE_modulePrefix___Presenter+Delegates.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>Presenter/___VARIABLE_modulePrefix___Presenter+Delegates.swift</string>
+			<key>Group</key>
+			<array>
+				<string>Presenter</string>
+			</array>
+		</dict>
+		<key>Presenter/___VARIABLE_modulePrefix___Presenter+Actions.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>Presenter/___VARIABLE_modulePrefix___Presenter+Actions.swift</string>
 			<key>Group</key>
 			<array>
 				<string>Presenter</string>

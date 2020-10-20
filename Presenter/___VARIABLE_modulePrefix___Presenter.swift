@@ -10,7 +10,11 @@ class ___VARIABLE_modulePrefix___Presenter<ViewInput: ___VARIABLE_modulePrefix__
     var router: ___VARIABLE_modulePrefix___RouterInput!
     var interactor: ___VARIABLE_modulePrefix___InteractorInput!
 
-    func configureView() {}
+    func configureView() {
+        setDelegates()
+
+        addActions()
+    }
 
     func showView() {
         router.navigationController = view.navigationController
