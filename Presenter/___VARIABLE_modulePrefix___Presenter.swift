@@ -21,6 +21,7 @@ class ___VARIABLE_modulePrefix___Presenter<ViewInput: ___VARIABLE_modulePrefix__
         router.tabBarController = view.tabBarController
 
         view.title = Constants.title
+        view.tabBarController?.tabBar.removeItemsText()
         view.statusBarStyle = Constants.statusBarStyle
         view.isNavigationBarShowing = Constants.isNavbarShowing
         view.navigationBackButton = Constants.navbarBackButton
